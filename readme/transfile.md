@@ -13,6 +13,10 @@ usage: scp [-1246BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
 
 ```
 $ scp README.md root@116.196.95.101:/root/
+```
+
+```
+$ scp README.md root@116.196.95.101:/root/
 The authenticity of host '116.196.95.101 (116.196.95.101)' can't be established.
 RSA key fingerprint is SHA256:BUcF1XU+VHOGi8dOJ69fREH+esMF88F/fEv+7A2zqos.
 Are you sure you want to continue connecting (yes/no)? yes
@@ -25,7 +29,9 @@ README.md                                     100
 
 ## 测试2 :在windows mingw终端从云服务器下载文件
 
-
+```
+ scp root@116.196.95.101:/root/README.md README_FROM_SERVER.md
+```
 
 scp命令：scp user@remote.machine:/remote/path /local/path将远程linux主机上/remote/path的文件copy到本主机的/local/path目录
 scp /local/path user@remote.machine:/remote/path将本主机的/local/path目录copy到远程linux主机上/remote/path的文件
