@@ -61,7 +61,7 @@ OpenJDK Runtime Environment (build 1.8.0_141-b16)
 OpenJDK 64-Bit Server VM (build 25.141-b16, mixed mode)
 ```
 
-##  ## 4. java的真实位置
+##  4. java的真实位置
 
 ```
 [root@jdu4e00u53f7 soft]# which java
